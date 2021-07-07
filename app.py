@@ -139,4 +139,96 @@
 ###################################################
 #### Tuples in Python ####
 
-# Tuples are immutable so it cannot be changes
+# # Tuples are immutable so it cannot be changed
+# three_numbers = (1, 2, 3, 1)
+# strings = ("home", 'land', 'earth')
+# boo = (True, False, True)
+# mix = (1, 'Home', True, 3, 1)
+# newtuple = tuple((1, 'Home', True, 3, 1))
+
+# print(three_numbers)
+# print(three_numbers[0])
+# print(len(three_numbers))
+# print(type(three_numbers))
+
+# print(strings)
+# print(boo)
+# print(mix)
+# print(type(mix[0]))
+# print(newtuple)
+
+##################################################
+#### Functions in Python ####
+
+# def greetings(name, age):
+#   print('Welcome ' + str(name) + '. You are', age, 'years old.')
+
+# # greetings('Chun')
+# # greetings(30)
+# # greetings(name = 'Chun', age = 30)
+
+# name = input('Enter your name: ')
+# age = input('Enter your age: ')
+# greetings(name, age)
+
+# # def greetings(*name):
+# #   print('Welcome ' + name[1])
+
+# # greetings('Chun', 'Jack', 'John')
+
+#####################################################
+#### Return Keyword in Python ####
+
+# def my_func(num1, num2):
+#   return num1 + num2
+
+# num1 = int(input('Enter first number: '))
+# num2 = int(input('Enter second number: '))
+# print(my_func(num1, num2))
+
+# # def my_func():
+# #   num1 = int(input('Enter first number: '))
+# #   num2 = int(input('Enter second number: '))
+# #   return num1 + num2
+
+# # print(my_func())
+
+####################################################
+#### If Statements in Python ####
+
+# a = 4
+# b = 3
+
+# if a == b:
+#   print('a equals b')
+# elif a > b:
+#   print('a is greater than b')
+# elif a < b:
+#   print('a is less than b')
+# else: 
+#   print('a not equal to b')
+
+# boy = True
+# short = True
+
+# # Python: or same as Javascript: ||
+# # Python: and same as Javascript: &&
+# if boy == True or short == True:
+#   print('He is a boy or he is short')
+# elif boy == False:
+#   print('Not a boy')
+
+#############################################
+#### Program to check if number is even #####
+
+# num = int(input('Enter a number: '))
+
+# if num%2 == 0:
+#   print("Even number")
+# else:
+#   print("Odd number")
+
+#############################################
+#### Dictionaries in Python ####
+
+
