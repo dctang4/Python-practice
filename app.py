@@ -231,4 +231,74 @@
 #############################################
 #### Dictionaries in Python ####
 
+# my_dict = {
+#   'name': 'Chun',
+#   'nationality': 'Asian',
+#   'age': 30,
+#   'is_tall': True,
+#   'qualification': 'BS',
+#   'friends': ['Peter', 'Jack', "Paul"]
+# }
 
+# x = my_dict['name']
+
+# print(my_dict)
+# print(len(my_dict))
+# print(my_dict['friends'])
+# print(type(my_dict))
+
+# print(x)
+
+##############################################
+#### While Loops in Python ####
+
+# i = 1
+
+# while i < 6 or i == 6:
+#   print(i)
+#   i += 1
+
+##############################################
+#### For Loops in Python ####
+
+# for letter in 'hello':
+#   print(letter)
+
+# mylist = ['ji', 'ju', 'jo']
+
+# for value in mylist:
+#   print(value)
+#   if value == 'ju':
+#     break
+
+# mydict = {
+#   'name': 'Chun',
+#   'age': 30
+# }
+
+# for value in mydict:
+#   print(value)
+
+# for x in range(4,10):
+#   print(x)
+# else:
+#   print('Finished Looping!!')
+
+###############################################
+#### Lists and Nested Loops in Python ####
+
+# my_list = [1,2,3,4]
+# print(my_list)
+
+# my_matrix = [
+#   [1,2,3],
+#   [4,5,6],
+#   [7,8,9]
+# ]
+# print(my_matrix)
+# print(my_matrix[1][1])
+
+# for list in my_matrix:
+#   print(list)
+#   for num in list:
+#     print(num)
